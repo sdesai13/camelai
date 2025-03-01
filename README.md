@@ -13,7 +13,7 @@ This repository contains a clone of [CamelAI's](https://camelai.com) landing pag
 ## Stuff missing
 - The colors and styling are not a 100% replica of the original, but they closely follow the same design principles and are nearly identical in appearance.
 - The icon grid slideshow is currently not implemented in this version. Given more time, I would be able to incorporate it seamlessly into the landing page.
-- The embedded video is not an exact match to the original, as I had difficulty locating the correct version. However, I have done my best to replicate it as closely as possible.
+- The embedded video is not an exact match to the original, I used another video from CamelAI's Youtube instead.
 
 
 ## Installation and Setup
