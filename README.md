@@ -2,6 +2,8 @@
 
 This repository contains a clone of [CamelAI's](https://camelai.com) landing page. All design credits and rights belong to CamelAI. This project was created as part of a take-home assignment for **AllMindAI** by **Shwetang Desai**.
 
+🚀 Built with Next.js
+
 ## Features
 - Fully responsive landing page
 - Modularized React components (Navbar, Hero Section, Badges, FAQ, etc.)
