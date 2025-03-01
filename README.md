@@ -56,7 +56,7 @@ Ensure you have the following installed on your system:
 ```
 
 ## Deployment
-You can deploy this project using [Vercel](https://vercel.com/) or [Netlify](https://www.netlify.com/).
+Deployed at https://camelai.vercel.app
 
 ## Credits
 - **Design and original inspiration:** [CamelAI](https://camelai.com)
