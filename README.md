@@ -1,36 +1,65 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# CamelAI Landing Page Clone
 
-## Getting Started
+This repository contains a clone of [CamelAI's](https://camelai.com) landing page. All design credits and rights belong to CamelAI. This project was created as part of a take-home assignment for **AllMindAI** by **Shwetang Desai**.
 
-First, run the development server:
+## Features
+- Fully responsive landing page
+- Modularized React components (Navbar, Hero Section, Badges, FAQ, etc.)
+- Styled using modern CSS techniques
+- Includes animated scrolling marquee and call-to-action buttons
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
+## Stuff missing
+- The colors and styling are not a 100% replica of the original, but they closely follow the same design principles and are nearly identical in appearance.
+- The icon grid slideshow is currently not implemented in this version. Given more time, I would be able to incorporate it seamlessly into the landing page.
+- The embedded video is not an exact match to the original, as I had difficulty locating the correct version. However, I have done my best to replicate it as closely as possible.
+
+
+## Installation and Setup
+
+### Prerequisites
+Ensure you have the following installed on your system:
+- [Node.js](https://nodejs.org/) (LTS recommended)
+- [npm](https://www.npmjs.com/) or [yarn](https://yarnpkg.com/)
+
+### Getting Started
+
+1. **Clone the repository:**
+   ```sh
+   git clone https://github.com/yourusername/camelai-clone.git
+   cd camelai-clone
+   ```
+
+2. **Install dependencies:**
+   ```sh
+   npm install  # or yarn install
+   ```
+
+3. **Run the development server:**
+   ```sh
+   npm run dev  # or yarn dev
+   ```
+
+4. **Open in browser:**
+   Once the server starts, open [http://localhost:3000](http://localhost:3000) in your browser.
+
+## Folder Structure
+```
+📦 camelai
+│── public/              # Static assets (images, icons, etc.)
+│── src/
+│   ├── app/             # Main application files
+│   ├── components/      # Reusable UI components
+│── .gitignore           # Ignored files for Git
+│── README.md            # Project documentation
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+## Deployment
+You can deploy this project using [Vercel](https://vercel.com/) or [Netlify](https://www.netlify.com/).
 
-You can start editing the page by modifying `app/page.js`. The page auto-updates as you edit the file.
+## Credits
+- **Design and original inspiration:** [CamelAI](https://camelai.com)
+- **Developed by:** [Shwetang Desai](https://github.com/sdesai13)
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+## License
+This project is for educational and assignment purposes only. All rights to the design and branding remain with CamelAI.
 
-## Learn More
-
-To learn more about Next.js, take a look at the following resources:
-
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
